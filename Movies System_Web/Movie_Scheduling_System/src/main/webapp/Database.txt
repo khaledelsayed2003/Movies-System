@@ -1,0 +1,50 @@
+Cinema,Movie,Date,Time
+Atlas Cinemas,Road House,18/05/2024,19:30
+Atlas Cinemas,Damsel,18/05/2024,22:30
+Atlas Cinemas,Lift,19/05/2024,17:30
+Atlas Cinemas,Sixty Minutes,19/05/2024,21:30
+Atlas Cinemas,Upgraded,22/05/2024,23:30
+Atlas Cinemas,Code 8,23/05/2024,20:30
+Atlas Cinemas,Fighter,24/05/2024,01:30
+Rexx Cinema,Road House,18/05/2024,22:30
+Rexx Cinema,Damsel,19/05/2024,18:15
+Rexx Cinema,Lift,19/05/2024,22:30
+Rexx Cinema,Sixty Minutes,20/05/2024,21:30
+Rexx Cinema,Upgraded,22/05/2024,23:15
+Rexx Cinema,Code 8,23/05/2024,22:45
+Rexx Cinema,Fighter,23/05/2024,23:55
+Cinehouse Beşiktaş,Road House,18/05/2024,19:25
+Cinehouse Beşiktaş,Damsel,19/05/2024,19:45
+Cinehouse Beşiktaş,Lift,19/05/2024,22:20
+Cinehouse Beşiktaş,Sixty Minutes,20/05/2024,21:00
+Cinehouse Beşiktaş,Upgraded,22/05/2024,23:00
+Cinehouse Beşiktaş,Code 8,24/05/2024,18:15
+Cinehouse Beşiktaş,Fighter,24/05/2024,23:00
+Cinema Pink,Road House,19/05/2024,19:00
+Cinema Pink,Damsel,19/05/2024,22:15
+Cinema Pink,Lift,20/05/2024,02:00
+Cinema Pink,Sixty Minutes,20/05/2024,21:15
+Cinema Pink,Upgraded,22/05/2024,23:45
+Cinema Pink,Code 8,25/05/2024,19:55
+Cinema Pink,Fighter,25/05/2024,22:45
+Airport Cinemas,Road House,20/05/2024,20:30
+Airport Cinemas,Damsel,20/05/2024,22:45
+Airport Cinemas,Lift,21/05/2024,19:15
+Airport Cinemas,Sixty Minutes,21/05/2024,22:15
+Airport Cinemas,Upgraded,22/05/2024,22:25
+Airport Cinemas,Code 8,23/05/2024,15:30
+Airport Cinemas,Fighter,23/05/2024,19:10
+Alkazar Cinema,Road House,19/05/2024,18:30
+Alkazar Cinema,Damsel,19/05/2024,21:45
+Alkazar Cinema,Lift,20/05/2024,00:30
+Alkazar Cinema,Sixty Minutes,20/05/2024,17:25
+Alkazar Cinema,Upgraded,20/05/2024,22:25
+Alkazar Cinema,Code 8,21/05/2024,16:45
+Alkazar Cinema,Fighter,23/05/2024,20:45
+Kadıköy Cinema,Road House,18/05/2024,20:05
+Kadıköy Cinema,Damsel,18/05/2024,22:05
+Kadıköy Cinema,Lift,19/05/2024,20:55
+Kadıköy Cinema,Sixty Minutes,20/05/2024,13:25
+Kadıköy Cinema,Upgraded,21/05/2024,17:25
+Kadıköy Cinema,Code 8,22/05/2024,20:30
+Kadıköy Cinema,Fighter,23/05/2024,22:50

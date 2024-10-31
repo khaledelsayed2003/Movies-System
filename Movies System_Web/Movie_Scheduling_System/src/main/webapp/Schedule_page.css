@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+table {
+    box-shadow: -1px 12px 12px -6px rgba(0, 0, 0, 0.5);
+    place-items: center;
+    display: grid;
+
+}
+
+table,
+td,
+th {
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    text-align: center cursor="pointer"
+}
+
+td {
+    font-size: 20px;
+}
+
+th {
+    background-color: blue;
+    color: white;
+
+}
+
+tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+
+tr:nth-child(odd):hover {
+    background-color: dodgerblue;
+    color: white;
+    transform: scale(1.5);
+    transition: transform 300ms ease-in;
+}
+
+tr:nth-child(even) {
+    background-color: #ededed;
+}
+
+tr:nth-child(even):hover {
+    background-color: lightgray;
+    transform: scale(1.5);
+    transition: transform 300ms ease-in;
+}
+
+body {
+    background-color: white;
+}
+
+table {
+    width: 100%;
+    /* Set the width to 100% of its container */
+    border-collapse: collapse;
+    /* Collapse borders between cells */
+}
+
+th,
+td {
+    padding: 50px 50px;
+    /* Adjust padding as needed */
+    border: 1px solid black;
+    /* Add border for cells */
+    text-align: left;
+    /* Align text to the left */
+}
+
+th {
+    padding: 20px 50px;
+    font-size: 40px;
+    left: 40px;
+
+    /* Add border for cells */
+
+    /* Align text to the left */
+}
+
+caption {
+    font-size: 70px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppons:wght@300;400;500;600;700;800;900&display=swap');
+
+
+a {
+    position: relative;
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0.5s;
+    border-radius: 16px;
+    font-size: 40px;
+
+}
+
+.first {
+
+
+    position: relative;
+    bottom: -65px;
+    left: 1455px;
+
+}
+
+
+a:hover {
+    background: var(--clr);
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px var(--clr);
+}

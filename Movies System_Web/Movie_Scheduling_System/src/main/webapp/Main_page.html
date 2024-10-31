@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Movie Scheduling System</title>
+    <meta name="Author" content="KHALED ELSAYED">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="100">
+    <meta name="description"
+        content="This page disply all cinemas in Istanbul, all the films they show, and the timing of each film">
+    <meta name="keywords"
+        content="Cinemas, movies, films, istanbul, time of shows, movies that the cinemas display in istanbul, turkish movies in istanbul, english movies in istanbul">
+<link rel="stylesheet" href="Main_page.css">
+</head>
+
+
+
+
+
+
+<body>
+
+
+
+
+ <div class="container">
+        <div class="box"><img title="Road House" src="Photos/Road House.png" alt="Photo of the Road House movie"></div>
+        <div class="box"><img title="Damsel" src="Photos/Damsel.png" alt="Photo of the Damsel movie"></div>
+        <div class="box"><img title="Lift" src="Photos/Lift.png" alt="Photo of the Lift movie"></div>
+        <div class="box"><img title="Sixty Minutes" src="Photos/Sixty Minutes.png" alt="Photo of the Sixty Minutes movie"></div>
+        <div class="box"><img title="Upgraded" src="Photos/Upgraded.png" alt="Photo of the Upgraded movie"></div>
+        <div class="box"><img title="Code 8" src="Photos/Code 8.png" alt="Photo of the Code 8 movie"></div>
+        <div class="box"><img title="Fighter" src="Photos/Fighter.png" alt="Photo of the Fighter movie"></div>
+         
+
+    </div>
+
+
+
+
+    <!--now we are gonaa add the photos of the movies  -->
+
+<div align="center" class="login">
+        <div class="everything">
+            <h1>Movie Search</h1>
+            <form id="searchForm">
+                <label for="movieName">Enter the movie name </label>
+                <div class="textdiv"> <input type="text" id="movieName" name="movieName" required="required"><br><br>
+                </div>
+                <div class="search"> <input type="button" value="Search" onclick="searchMovie()"></div>
+            </form>
+
+           <div id="searchResult"></div> 
+        </div>
+    </div>
+ 
+  <div id="searchResul" >
+        <!-- Search result will appear here -->
+    </div>
+
+ <script>
+function searchMovie() {
+    var movieName = document.getElementById("movieName").value;
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", "Main?movieName=" + movieName, true);
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            document.getElementById("searchResult").innerHTML = xhr.responseText;
+        }
+    };
+    xhr.send();
+}
+</script>
+
+
+
+    <!--end of the photos 
+    
+    <script>
+function searchMovie() {
+    var movieName = document.getElementById("movieName").value;
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", "Main?movieName=" + movieName, true);
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            document.getElementById("searchResult").innerHTML = xhr.responseText;
+        }
+    };
+    xhr.send();
+}
+</script>
+    
+    
+    
+    
+    
+     -->
+
+
+
+
+
+    <h3><a href="Welcome_page.html"><small><small>&#60;</small></small> Home </a></h3>
+     <h3><a href="Schedule_page.html" class="second">Schedule <small><small>&#62;</small></small> </a></h3>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
